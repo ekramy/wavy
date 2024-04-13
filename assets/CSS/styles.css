@@ -1,0 +1,167 @@
+/* Main Roles */
+/* Color Palette */
+:root{
+    --font-family: "Be Vietnam Pro", sans-serif;
+    --color-primary: #F43676;
+    --color-third:#AEF3FF;
+    --color-decoration:#F7DFD4;
+    --color-title-color:#302D55;
+    --color-black:#002050;
+    --color-background-color:#FFFACD;
+    --color-boxes-background:#FFF9F3;
+    --color-boxes-border:#FFE7D2;
+    --boxes-border-raduis:15px;
+    --gradient-start-color:#FC6668;
+    --gradient-end-color:#E10489;
+    --gradient-color: liner-gradient(103deg, var(var(--gradient-start-color)) 0%, var(var(--gradient-end-color)) 100%);
+    --boxes-shadow:2px 2px 3px 0px rgba(93,112,234,0.1);
+    --small-shadow:0px 3px 5px 0px rgba(0,0,0,0.15);
+    --meduim-shadow:0px 8px 16px -8px rgba(0, 0, 0, 0.30), 0px 13px 27px -5px rgba(50, 50, 93, 0.25);
+    --transition-bezier: cubic-bezier(.5,2.5,.7,.7);
+}
+html {
+  font-size: 62.5%;
+}
+/* Font family */
+.be-vietnam pro-thin {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-extralight {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-light {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-regular {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-medium {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-semibold {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-bold {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-extrabold {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-black {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .be-vietnam pro-thin-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-extralight-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-light-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-regular-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-medium-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-semibold-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-bold-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .be-vietnam pro-extrabold-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .be-vietnam  pro-black-italic {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* Typography */
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  color: var(--color-black);
+  font-weight: 300;
+}
+h1, h2, h3{
+  color:var(--color-title-color);
+  display:block;
+  width: fit-content;
+}
+h1{
+  font-size: 2.8rem;
+} 
+h2{
+  font-size: 2.2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+.underline-effect {
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--color-third)), to(var(--color-third)));
+  background-image: linear-gradient(to right, var(--color-third) 0%, var(--color-third) 100%);
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+  background-position: left 90%;
+  transition: all .4s ease;
+}
+h1:hover, h2:hover, h3:hover, p:hover{
+  color: var(--color-black);
+  background-size: 100% 25%;
+
+}
